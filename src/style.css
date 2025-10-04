@@ -26,6 +26,9 @@ body {
 }
 
 .nav__link {
+  font-size: 12px;
+  letter-spacing: 0;
+  color: black;
   position: relative;
   text-decoration: none;
   display: inline-flex;
@@ -61,6 +64,10 @@ body {
   height: 4px;
   background-color: var(--blue-color);
   border-radius: 8px;
+}
+
+.nav__link.is-active {
+  color: var(--blue-color);
 }
 
 .nav__link:hover {
